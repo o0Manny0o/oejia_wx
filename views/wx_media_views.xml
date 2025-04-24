@@ -25,11 +25,11 @@
                     <sheet>
                     <group>
                <field name="media_id" readonly="1"/>
-               <field name="media_type" attrs="{'readonly': [('media_id', '!=', False)]}"/>
+               <field name="media_type" readonly="media_id != False"/>
                <field name="name"/>
-               <field name="article_ids" attrs="{'invisible': [('media_type', '!=', 'news')], 'readonly': [('media_id', '!=', False)]}"/>
+               <field name="article_ids" invisible="media_type != 'news'" readonly="media_id != False" />
                <field name="update_time" readonly="1"/>
-               <field name="url" readonly="1" attrs="{'invisible': [('media_type', '=', 'news')]}"/>
+               <field name="url" readonly="1" invisible="media_type == 'news'"/>
                     </group>
                     </sheet>
                 </form>

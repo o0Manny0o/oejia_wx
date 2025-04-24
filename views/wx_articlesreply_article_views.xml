@@ -14,8 +14,8 @@
                             <field name="description"/>
                             <field name="url"/>
                             <field name="img_type"/>
-                            <field name="img_file" widget="image" attrs="{'invisible': [('img_type', '=', 'url')]}"/>
-                            <field name="img" attrs="{'invisible': [('img_type', '=', 'file')]}"/>
+                            <field name="img_file" widget="image" invisible="img_type == 'url'"/>
+                            <field name="img" invisible="img_type == 'file'"/>
                         </group>
                     </sheet>
                 </form>

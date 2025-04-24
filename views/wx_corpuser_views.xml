@@ -27,8 +27,8 @@
             <field name="arch" type="xml">
                 <form string="成员" version="7.0" duplicate="0">
                     <header>
-                    	<button name="send_text_confirm" string="发送微信消息" type="object" attrs="{'invisible': [('id', '=', False)]}"/>
-			<button name="delete_corpuser" string="禁用企微成员" confirm="此操作会删除企业微信通讯录中的该成员，确定?" type="object" attrs="{'invisible': [('id', '=', False)]}"/>
+                    	<button name="send_text_confirm" string="发送微信消息" type="object" invisible="id == False" />
+			<button name="delete_corpuser" string="禁用企微成员" confirm="此操作会删除企业微信通讯录中的该成员，确定?" type="object" invisible="id == False"/>
 					</header>
 			 	  <sheet>
 			 	    <group>
