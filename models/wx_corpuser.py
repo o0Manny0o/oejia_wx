@@ -47,7 +47,7 @@ class wx_corpuser(models.Model):
         for self in objs:
             self.avatarimg= '<img src=%s width="100px" height="100px" />'%(self.avatar or utils.DEFAULT_IMG_URL)
 
-    @api.model
+    @api.model_create_multi
     def create(self, values):
         _logger.info('wx.corpuser create >>> %s'%str(values))
         values['email'] = values.get('email', False)

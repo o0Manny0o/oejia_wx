@@ -48,7 +48,7 @@ class wx_user(models.Model):
         objs = super(wx_user, self).write(values)
         return objs
 
-    @api.model
+    @api.model_create_multi
     def create(self, values):
         values = self._parse_values(values)
         obj = super(wx_user, self).create(values)
