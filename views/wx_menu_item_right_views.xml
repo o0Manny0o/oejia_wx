@@ -17,16 +17,16 @@
 			 				 				 				 				 	</form>
             </field>
         </record>
-        <record id="wx_menu_item_right_view_tree" model="ir.ui.view">
-            <field name="name">wx.menu.item.right.view_tree</field>
+        <record id="wx_menu_item_right_view_list" model="ir.ui.view">
+            <field name="name">wx.menu.item.right.view_list</field>
             <field name="model">wx.menu.item.right</field>
-            <field name="type">tree</field>
+            <field name="type">list</field>
             <field name="arch" type="xml">
-                <tree string="右菜单项">
+                <list string="右菜单项">
 			 				 				 				 				 	            <field name="sequence" widget="handle"/>
 			 				 				 				 				 	            <field name="name"/>
 			 				 				 				 				 	            <field name="action"/>
-			 				 				 				 				 	</tree>
+			 				 				 				 				 	</list>
             </field>
         </record>
 

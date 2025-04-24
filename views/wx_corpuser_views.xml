@@ -2,12 +2,12 @@
 <openerp>
     <data>
 
-        <record id="wx_corpuser_view_tree" model="ir.ui.view">
-            <field name="name">wx.corpuser.view_tree</field>
+        <record id="wx_corpuser_view_list" model="ir.ui.view">
+            <field name="name">wx.corpuser.view_list</field>
             <field name="model">wx.corpuser</field>
-            <field name="type">tree</field>
+            <field name="type">list</field>
             <field name="arch" type="xml">
-                <tree string="成员">
+                <list string="成员">
 			 	            <field name="avatarimg"/>
 			 	            <field name="name"/>
 			 	            <field name="userid"/>
@@ -17,7 +17,7 @@
 			 	            <field name="position"/>
                             <field name="corp_config_id"/>
 			 	            <field name="status"/>
-			 	</tree>
+			 	</list>
             </field>
         </record>
         <record id="wx_corpuser_view_form" model="ir.ui.view">
@@ -57,7 +57,7 @@
             <field name="name">成员</field>
             <field name="res_model">wx.corpuser</field>
             <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">list,form</field>
             <field name="target">current</field>
         </record>
         <record id="wx_corpuser_action_server_359" model="ir.actions.server">

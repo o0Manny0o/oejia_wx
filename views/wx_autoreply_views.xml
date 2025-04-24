@@ -18,24 +18,24 @@
 			 				 				 				 				 	</form>
             </field>
         </record>
-        <record id="wx_autoreply_view_tree" model="ir.ui.view">
-            <field name="name">wx.autoreply.view_tree</field>
+        <record id="wx_autoreply_view_list" model="ir.ui.view">
+            <field name="name">wx.autoreply.view_list</field>
             <field name="model">wx.autoreply</field>
-            <field name="type">tree</field>
+            <field name="type">list</field>
             <field name="arch" type="xml">
-                <tree string="自动回复">
+                <list string="自动回复">
 			 				 				 				 				 	            <field name="id"/>
 			 				 				 				 				 	            <field name="key"/>
 			 				 				 				 				 	            <field name="action"/>
 			 				 				 				 				 	            <field name="type"/>
-			 				 				 				 				 	</tree>
+			 				 				 				 				 	</list>
             </field>
         </record>
         <record id="wx_autoreply_action" model="ir.actions.act_window">
             <field name="name">自动回复</field>
             <field name="res_model">wx.autoreply</field>
             <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">list,form</field>
             <field name="target">current</field>
         </record>
         <menuitem action="wx_autoreply_action" id="wx_autoreply_menuitem" name="自动回复" parent="parent_menu_122" sequence="10"/>

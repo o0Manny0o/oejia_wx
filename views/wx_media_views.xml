@@ -2,17 +2,17 @@
 <openerp>
     <data>
 
-        <record id="wx_media_view_tree_394" model="ir.ui.view">
-            <field name="name">wx.media.view_tree</field>
+        <record id="wx_media_view_list_394" model="ir.ui.view">
+            <field name="name">wx.media.view_list</field>
             <field name="model">wx.media</field>
-            <field name="type">tree</field>
+            <field name="type">list</field>
             <field name="priority">999</field>
             <field name="arch" type="xml">
-                <tree string="微信素材" create="0" edit="0">
+                <list string="微信素材" create="0" edit="0">
                <field name="media_type"/>
                <field name="name"/>
                <field name="update_time_show"/>
-                </tree>
+                </list>
             </field>
         </record>
         <record id="wx_media_view_form_395" model="ir.ui.view">
@@ -39,11 +39,11 @@
             <field name="name">微信素材</field>
             <field name="res_model">wx.media</field>
             <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">list,form</field>
             <field name="target">current</field>
             <field name="view_ids"
                    eval="[(5, 0, 0),
-                          (0, 0, {'view_mode': 'tree', 'view_id': ref('wx_media_view_tree_394')}),
+                          (0, 0, {'view_mode': 'list', 'view_id': ref('wx_media_view_list_394')}),
                           (0, 0, {'view_mode': 'form', 'view_id': ref('wx_media_view_form_395')}),
                     ]"/>
         </record>

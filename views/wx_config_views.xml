@@ -2,15 +2,15 @@
 <openerp>
     <data>
 
-        <record id="wx_config_view_tree_1002" model="ir.ui.view">
-            <field name="name">wx.config.view_tree</field>
+        <record id="wx_config_view_list_1002" model="ir.ui.view">
+            <field name="name">wx.config.view_list</field>
             <field name="model">wx.config</field>
-            <field name="type">tree</field>
+            <field name="type">list</field>
             <field name="priority">999</field>
             <field name="arch" type="xml">
-                <tree string="公众号配置">
+                <list string="公众号配置">
                <field name="action"/>
-                </tree>
+                </list>
             </field>
         </record>
         <record id="wx_config_view_form_1003" model="ir.ui.view">
@@ -45,7 +45,7 @@
             <field name="name">对接公众号设置</field>
             <field name="res_model">wx.config</field>
             <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">list,form</field>
             <field name="target">current</field>
             <field name="res_id">1</field>
             <field name="help" type="html"><p></p></field>

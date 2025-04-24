@@ -2,19 +2,19 @@
 <openerp>
     <data>
 
-        <record id="wx_send_mass_view_tree_1377" model="ir.ui.view">
-            <field name="name">wx.send.mass.view_tree</field>
+        <record id="wx_send_mass_view_list_1377" model="ir.ui.view">
+            <field name="name">wx.send.mass.view_list</field>
             <field name="model">wx.send.mass</field>
-            <field name="type">tree</field>
+            <field name="type">list</field>
             <field name="priority">999</field>
             <field name="arch" type="xml">
-                <tree string="群发">
+                <list string="群发">
                <field name="wx_media_id"/>
                <field name="is_to_all"/>
                <field name="preview_user_id"/>
                <field name="msg_id"/>
                <field name="create_date"/>
-                </tree>
+                </list>
             </field>
         </record>
         <record id="wx_send_mass_view_form_1378" model="ir.ui.view">
@@ -46,11 +46,11 @@
             <field name="name">群发</field>
             <field name="res_model">wx.send.mass</field>
             <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">list,form</field>
             <field name="target">current</field>
             <field name="view_ids"
                    eval="[(5, 0, 0),
-                          (0, 0, {'view_mode': 'tree', 'view_id': ref('wx_send_mass_view_tree_1377')}),
+                          (0, 0, {'view_mode': 'list', 'view_id': ref('wx_send_mass_view_list_1377')}),
                           (0, 0, {'view_mode': 'form', 'view_id': ref('wx_send_mass_view_form_1378')}),
                     ]"/>
         </record>
