@@ -56,13 +56,11 @@
         <record id="wx_corpuser_action" model="ir.actions.act_window">
             <field name="name">成员</field>
             <field name="res_model">wx.corpuser</field>
-            <field name="view_type">form</field>
             <field name="view_mode">list,form</field>
             <field name="target">current</field>
         </record>
         <record id="wx_corpuser_action_server_359" model="ir.actions.server">
             <field name="name">同步成员</field>
-            <field name="condition">True</field>
             <field name="type">ir.actions.server</field>
             <field name="model_id" ref="model_wx_corpuser"></field>
             <field name="state">code</field>

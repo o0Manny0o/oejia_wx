@@ -49,8 +49,7 @@
         <record id="wx_config_corpsettings_action" model="ir.actions.act_window">
             <field name="name">微信企业号配置</field>
             <field name="res_model">wx.config.corpsettings</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">form</field>
+			<field name="view_mode">form</field>
             <field name="target">inline</field>
         </record>
         <menuitem action="wx_config_corpsettings_action" id="wx_config_corpsettings_menuitem" name="企业微信对接配置" parent="parent_menu_123" sequence="10" groups="oejia_wx.group_wx_conf,oejia_wx.group_wx_conf_read"/>
