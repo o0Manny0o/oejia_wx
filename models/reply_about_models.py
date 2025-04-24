@@ -59,7 +59,7 @@ class wx_action_act_article(models.Model):
         return articles
 
     @api.multi
-    def name_get(self):
+    def _compute_display_name(self):
         return [(e.id, u'[图文] %s'%e.name) for e in self]
 
 
@@ -84,7 +84,7 @@ class wx_action_act_custom(models.Model):
             return g['r']
 
     @api.multi
-    def name_get(self):
+    def _compute_display_name(self):
         return [(e.id, u'[自定义] %s'%e.name) for e in self]
 
 class wx_action_act_text(models.Model):
@@ -103,7 +103,7 @@ class wx_action_act_text(models.Model):
         return self.content
 
     @api.multi
-    def name_get(self):
+    def _compute_display_name(self):
         return [(e.id, u'[文本] %s'%e.name) for e in self]
 
 class wx_action_act_url(models.Model):
@@ -118,7 +118,7 @@ class wx_action_act_url(models.Model):
     #_defaults = {
     #}
     @api.multi
-    def name_get(self):
+    def _compute_display_name(self):
         return [(e.id, u'[URL链接] %s'%e.name) for e in self]
 
 class wx_action_act_wxa(models.Model):
@@ -131,7 +131,7 @@ class wx_action_act_wxa(models.Model):
     url = fields.Char(u'老版微信备用URL', )
 
     @api.multi
-    def name_get(self):
+    def _compute_display_name(self):
         return [(e.id, u'[小程序] %s'%e.name) for e in self]
 
 
@@ -153,5 +153,5 @@ class wx_action_act_media(models.Model):
             }
 
     @api.multi
-    def name_get(self):
+    def _compute_display_name(self):
         return [(e.id, u'[素材] %s'%e.name) for e in self]

@@ -69,7 +69,7 @@ class WxConfig(models.Model):
         return self.env.ref('oejia_wx.wx_config_data_1')
 
     @api.multi
-    def name_get(self):
+    def _compute_display_name(self):
         return [(e.id, u'公众号配置') for e in self]
 
     @api.model
