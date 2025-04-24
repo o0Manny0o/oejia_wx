@@ -1,0 +1,1424 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* oejia_wx
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-24 12:30+0000\n"
+"PO-Revision-Date: 2025-04-24 12:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
+msgid "- 动 作"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form2
+msgid "<span>尚未做公众号对接配置</span>"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__aeskey
+msgid "AESKey"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__app_id
+msgid "AppID"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__wx_appid
+msgid "AppId"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__wx_AppSecret
+msgid "AppSecret"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_article__article_ids
+msgid "Article"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_article__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_custom__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_media__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_text__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_url__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_confirm__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser_uuid__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_left__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__create_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_uuid__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_article__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_custom__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_media__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_text__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_url__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_confirm__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser_uuid__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_left__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__create_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_uuid__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_article__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_custom__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_media__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_text__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_url__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_confirm__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser_uuid__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_left__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__display_name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_uuid__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__wx_aeskey
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_AESKey
+msgid "EncodingAESKey"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.module.category,description:oejia_wx.module_cate54
+msgid "False"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
+msgid "Group By"
+msgstr ""
+
+#. module: oejia_wx
+#: model:im_livechat.channel,button_text:oejia_wx.channel_app
+#: model:im_livechat.channel,button_text:oejia_wx.channel_corp
+#: model:im_livechat.channel,button_text:oejia_wx.channel_wx
+msgid "Have a Question? Chat with us."
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_article__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_custom__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_media__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_text__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_url__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_confirm__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser_uuid__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_left__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_uuid__id
+msgid "ID"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_article__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_custom__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_media__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_text__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_url__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_confirm__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser_uuid__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_left__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__write_uid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_uuid__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_article__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_custom__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_media__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_text__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_url__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_confirm__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser_uuid__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_left__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__write_date
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_uuid__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_im_livechat_channel
+msgid "Livechat Channel"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_action_act_custom__excute_type__python
+msgid "Python"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__secret
+msgid "Secret"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__sequence
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_base__sequence
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_left__sequence
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__sequence
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__subscribe_time
+msgid "Subscribe Time"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__token
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__wx_token
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_Token
+msgid "Token"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__wx_url
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_Url
+msgid "URL"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_action_act_url
+msgid "URL跳转"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__unionid
+msgid "UnionId"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__update_time
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__update_time
+msgid "Update Time"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__url
+msgid "Url"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,help:oejia_wx.field_wx_menu__sequence
+#: model:ir.model.fields,help:oejia_wx.field_wx_menu_item_base__sequence
+#: model:ir.model.fields,help:oejia_wx.field_wx_menu_item_left__sequence
+#: model:ir.model.fields,help:oejia_wx.field_wx_menu_item_middle__sequence
+#: model:ir.model.fields,help:oejia_wx.field_wx_menu_item_right__sequence
+msgid "sequence"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__img_file
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_articlesreply_article__img_type__file
+msgid "上传图片"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__middle
+msgid "中菜单"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_menu_item_middle
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_item_middle_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_item_middle_view_list
+msgid "中菜单项"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__title
+msgid "主标题"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_Id
+msgid "企业ID"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__mtype__2
+msgid "企业号"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__im_livechat_channel__ctype__wx_corp
+msgid "企业微信"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_corpuser_uuid
+msgid "企业微信会话记录"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.ui.menu,name:oejia_wx.wx_corp_config_menuitem_322_1536754696
+msgid "企业微信对接配置"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.ui.menu,name:oejia_wx.parent_menu_286
+msgid "企业微信管理"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__last_uuid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser_uuid__uuid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__last_uuid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_uuid__uuid
+msgid "会话ID"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__last_uuid_time
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__last_uuid_time
+msgid "会话ID时间"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__author
+msgid "作者"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__used
+msgid "使用中"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_confirm__info
+msgid "信息"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__mtype__1
+msgid "公众号"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_user_uuid
+msgid "公众号会话记录"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.ui.menu,name:oejia_wx.wx_config_menuitem_322_1536754696
+msgid "公众号对接配置"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_user_action
+#: model:ir.model,name:oejia_wx.model_wx_user
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_view_list
+msgid "公众号用户"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.ui.menu,name:oejia_wx.parent_menu_120
+msgid "公众号用户管理"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_user_group_action
+#: model:ir.model,name:oejia_wx.model_wx_user_group
+msgid "公众号用户组"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.ui.menu,name:oejia_wx.parent_menu_126_1542014737
+msgid "公众号素材"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.ui.menu,name:oejia_wx.wx_menu_menuitem
+msgid "公众号菜单"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_config
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_config_view_form_1003
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_config_view_list_1002
+msgid "公众号配置"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__action
+msgid "关注后的自动回复"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__subscribe_time_show
+msgid "关注时间"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__subscribe
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
+msgid "关注状态"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_res_partner__wxcorp_user_id
+#: model:ir.model.fields,field_description:oejia_wx.field_res_users__wxcorp_user_id
+msgid "关联企业微信"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_res_partner__wx_user_id
+#: model:ir.model.fields,field_description:oejia_wx.field_res_users__wx_user_id
+msgid "关联微信"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_text__content
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__news_item
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__content
+msgid "内容"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__alias
+msgid "别名"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__description
+msgid "副标题"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__action
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__left_action
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__middle_action
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__right_action
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_left__action
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__action
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__action
+msgid "动作"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__key
+msgid "匹配内容"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__type__4
+msgid "匹配开头"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__type
+msgid "匹配方式"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__sequence
+msgid "匹配顺序"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__content_source_url
+msgid "原文链接"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form2
+msgid "去配置"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__is_to_all
+msgid "发给所有用户"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form_send
+msgid "发送"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corpuser_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_view_form
+msgid "发送微信消息"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__preview
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_send_mass_view_form_1378
+msgid "发送预览"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__right
+msgid "右菜单"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_menu_item_right
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_item_right_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_item_right_view_list
+msgid "右菜单项"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.server,name:oejia_wx.wx_user_action_server_126
+#: model:ir.actions.server,name:oejia_wx.wx_user_group_action_server_121
+msgid "同步"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.server,name:oejia_wx.wx_user_action_server_sync
+msgid "同步公众号用户"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.server,name:oejia_wx.wx_user_group_action_server_sync
+msgid "同步公众号用户组"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.server,name:oejia_wx.wx_media_action_server_144
+msgid "同步公众号素材"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.server,name:oejia_wx.wx_corpuser_action_server_359
+#: model:ir.ui.menu,name:oejia_wx.wx_corpuser_menuitem_270
+msgid "同步成员"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.ui.menu,name:oejia_wx.wx_user_sync_menuitem
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_config_view_form_1003
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corp_config_view_form_1003
+msgid "同步用户"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.ui.menu,name:oejia_wx.wx_media_menuitem_128_1542014738
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_config_view_form_1003
+msgid "同步素材"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.ui.menu,name:oejia_wx.wx_user_group_sync_menuitem
+msgid "同步组"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_article__name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_custom__name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_text__name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_url__name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__name
+msgid "名称"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__appkey
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__appkey
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__appkey
+msgid "唯一编码"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.constraint,message:oejia_wx.constraint_wx_app_config_unique_appkey
+#: model:ir.model.constraint,message:oejia_wx.constraint_wx_config_unique_appkey
+#: model:ir.model.constraint,message:oejia_wx.constraint_wx_corp_config_unique_appkey
+msgid "唯一编码不可重复！"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__country
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
+msgid "国家"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_articlesreply_article_action
+#: model:ir.model,name:oejia_wx.model_wx_articlesreply_article
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__article_ids
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_media__media_type__news
+#: model:ir.ui.menu,name:oejia_wx.wx_articlesreply_article_menuitem
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_articlesreply_article_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_articlesreply_article_view_list
+msgid "图文"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__action__wx_action_act_article
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_config__action__wx_action_act_article
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__left_action__wx_action_act_article
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__middle_action__wx_action_act_article
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__right_action__wx_action_act_article
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_left__action__wx_action_act_article
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_middle__action__wx_action_act_article
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_right__action__wx_action_act_article
+msgid "图文响应"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__img_show
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_media__media_type__image
+msgid "图片"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__img
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_articlesreply_article__img_type__url
+msgid "图片地址"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__img_type
+msgid "图片类型"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__city
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
+msgid "城市"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
+msgid "填写中间菜单名"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
+msgid "填写右菜单名"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
+msgid "填写备注"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
+msgid "填写左菜单名"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__avatar
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__avatarimg
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__headimg
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__headimgurl
+msgid "头像"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
+msgid "女性"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_base__name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_left__name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__name
+msgid "子菜单"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__type__1
+msgid "完全匹配"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_corp_config_action_404
+#: model:ir.model,name:oejia_wx.model_wx_corp_config
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corp_config_view_form_1003
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corp_config_view_list_1002
+msgid "对接企业号配置"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_config_action_404
+msgid "对接公众号设置"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_app_config_action_404
+msgid "对接小程序设置"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__appid
+msgid "小程序AppID"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_app_config
+#: model:ir.ui.menu,name:oejia_wx.wx_app_config_menuitem_322_1536754696
+msgid "小程序对接设置"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_app_config_view_form_1003
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_app_config_view_list_1002
+msgid "小程序设置"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_action_act_wxa
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__left_action__wx_action_act_wxa
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__middle_action__wx_action_act_wxa
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__right_action__wx_action_act_wxa
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_left__action__wx_action_act_wxa
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_middle__action__wx_action_act_wxa
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_right__action__wx_action_act_wxa
+msgid "小程序跳转"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__pagepath
+msgid "小程序页面路径"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__left
+msgid "左菜单"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_menu_item_left
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_item_left_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_item_left_view_list
+msgid "左菜单项"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_corpuser__status__1
+msgid "已关注"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
+msgid "已关注状态"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_corpuser__status__2
+msgid "已禁用"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_Agent
+msgid "应用 AgentID"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_Agent_Secret
+msgid "应用 Secret"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_app_config_view_form_1003
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_config_view_form_1003
+msgid "开发者配置"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_config__wx_AccessToken
+msgid "当前AccessToken"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.module.category,name:oejia_wx.module_cate54
+#: model:ir.ui.menu,name:oejia_wx.parent_menu_119
+msgid "微信"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__im_livechat_channel__ctype__wx_gzh
+msgid "微信公众号"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__weixinid
+msgid "微信号"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__im_livechat_channel__ctype__wx_app
+msgid "微信小程序"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_view_form
+msgid "微信用户"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser_uuid__userid
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_uuid__openid
+msgid "微信用户ID"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
+msgid "微信用户查找"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_group_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_group_view_list
+msgid "微信用户组"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_media_action_143
+#: model:ir.model,name:oejia_wx.model_wx_media
+#: model:ir.ui.menu,name:oejia_wx.wx_media_menuitem_127_1542014738
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_media_view_form_395
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_media_view_list_394
+msgid "微信素材"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_menu_action
+#: model:ir.model,name:oejia_wx.model_wx_menu
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_list
+msgid "微信菜单"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.ui.menu,name:oejia_wx.parent_menu_123
+msgid "微信设置"
+msgstr ""
+
+#. module: oejia_wx
+#: model:res.groups,name:oejia_wx.group_wx_op
+msgid "微信运营"
+msgstr ""
+
+#. module: oejia_wx
+#: model:res.groups,name:oejia_wx.group_wx_conf
+msgid "微信配置"
+msgstr ""
+
+#. module: oejia_wx
+#: model:res.groups,name:oejia_wx.group_wx_conf_read
+msgid "微信配置(只读)"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,help:oejia_wx.field_wx_config__wx_token
+#: model:ir.model.fields,help:oejia_wx.field_wx_corp_config__Corp_Token
+msgid "必须为英文或数字，长度为3-32字符, 系统默认自动生成，也可自行修改"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__gender
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__sex
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
+msgid "性别"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_corpuser_action
+#: model:ir.model,name:oejia_wx.model_wx_corpuser
+#: model:ir.ui.menu,name:oejia_wx.wx_corpuser_menuitem
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corpuser_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corpuser_view_list
+msgid "成员"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_base__menu_id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_left__menu_id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__menu_id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__menu_id
+msgid "所属微信菜单"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__group_id
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
+msgid "所属组"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__mobile
+msgid "手机号"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__need_open_comment
+msgid "打开评论"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_custom__excute_content
+msgid "执行内容"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_custom__excute_type
+msgid "执行方式"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__extattr
+msgid "扩展属性"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_media__name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__digest
+msgid "描述"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
+msgid "描述/备注"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form_send
+msgid "放弃"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,help:oejia_wx.field_wx_autoreply__sequence
+msgid "数字越小越先匹配"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__action__wx_action_act_text
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_config__action__wx_action_act_text
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__left_action__wx_action_act_text
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__middle_action__wx_action_act_text
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__right_action__wx_action_act_text
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_left__action__wx_action_act_text
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_middle__action__wx_action_act_text
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_right__action__wx_action_act_text
+msgid "文本响应"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__url
+msgid "文章url"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_confirm__method
+msgid "方法"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__name
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__nickname
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
+msgid "昵称"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__show_cover_pic
+msgid "显示封面"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__im_livechat_channel__ctype__normal
+msgid "普通"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__update_time_show
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__update_time_show
+msgid "更新时间"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_app_config_view_form_1003
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_config_view_form_1003
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corp_config_view_form_1003
+msgid "服务配置"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_corpuser__status__4
+msgid "未关注"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_corpuser__gender__0
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_user__sex__0
+msgid "未知"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__corp_config_id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__config_id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__origin_id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__config_id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__config_id
+msgid "来源"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__title
+msgid "标题"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_confirm__model
+msgid "模型"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__type__2
+msgid "模糊匹配"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__type__3
+msgid "正则匹配"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corpuser_view_form
+msgid "此操作会删除企业微信通讯录中的该成员，确定?"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__msg_id
+msgid "消息ID"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__handler_url
+msgid "消息对接URL"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__status
+msgid "状态"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.server,name:oejia_wx.wx_menu_action_server_123
+msgid "生效"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__user_ids
+#: model:ir.ui.menu,name:oejia_wx.wx_user_menuitem
+msgid "用户"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__count
+msgid "用户数"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__openid
+msgid "用户标志"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
+msgid "男性"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user__province
+msgid "省份"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form2
+msgid "知道了"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form_send
+msgid "确定"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_confirm
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form2
+msgid "确认"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corpuser_view_form
+msgid "禁用企微成员"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_im_livechat_channel__ctype
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__media_type
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__mtype
+msgid "类型"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__only_fans_can_comment
+msgid "粉丝才可评论"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media__media_id
+msgid "素材ID"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_media_article
+msgid "素材文章"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__group_name
+msgid "组名"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__group_id
+msgid "组编号"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__show_thumb_url
+msgid "缩略图"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__thumb_url
+msgid "缩略图url"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__thumb_media_id
+msgid "缩略图素材ID"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_send_mass_action_458
+#: model:ir.model,name:oejia_wx.model_wx_send_mass
+#: model:ir.ui.menu,name:oejia_wx.wx_send_mass_menuitem_313_1552142855
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_send_mass_view_form_1378
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_send_mass_view_list_1377
+msgid "群发"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__url
+msgid "老版微信备用URL"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__position
+msgid "职位"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_autoreply_action
+#: model:ir.model,name:oejia_wx.model_wx_autoreply
+#: model:ir.ui.menu,name:oejia_wx.parent_menu_122
+#: model:ir.ui.menu,name:oejia_wx.wx_autoreply_menuitem
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_autoreply_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_autoreply_view_list
+msgid "自动回复"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_action_act_custom_action
+#: model:ir.model,name:oejia_wx.model_wx_action_act_custom
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__action__wx_action_act_custom
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_config__action__wx_action_act_custom
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__left_action__wx_action_act_custom
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__middle_action__wx_action_act_custom
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__right_action__wx_action_act_custom
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_left__action__wx_action_act_custom
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_middle__action__wx_action_act_custom
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_right__action__wx_action_act_custom
+#: model:ir.ui.menu,name:oejia_wx.wx_action_act_custom_menuitem
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_action_act_custom_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_action_act_custom_view_list
+msgid "自定义动作"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corp_config_view_form_1003
+msgid "自建应用信息"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_Agent_Name
+msgid "自建应用名称"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_menu_item_base
+msgid "菜单项"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__send_ignore_reprint
+msgid "被判定为转载时，是否继续群发"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_media__media_type__video
+msgid "视频"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_media__media_type__voice
+msgid "语音"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,help:oejia_wx.field_wx_corp_config__Corp_Url
+msgid "请将此URL拷贝填到企业微信官方后台，并确保公网能访问该地址"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,help:oejia_wx.field_wx_config__wx_url
+msgid "请将此URL拷贝填到公众号官方后台，并确保公网能访问该地址"
+msgstr ""
+
+#. module: oejia_wx
+#: model:im_livechat.channel,default_message:oejia_wx.channel_app
+#: model:im_livechat.channel,default_message:oejia_wx.channel_corp
+#: model:im_livechat.channel,default_message:oejia_wx.channel_wx
+msgid "请稍后，正在分配客服为您解答"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__userid
+msgid "账号"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.constraint,message:oejia_wx.constraint_wx_corpuser_userid_key
+msgid "账号已存在 !"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__url
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__left_action__wx_action_act_url
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__middle_action__wx_action_act_url
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__right_action__wx_action_act_url
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_left__action__wx_action_act_url
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_middle__action__wx_action_act_url
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_right__action__wx_action_act_url
+msgid "跳转链接"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.ui.menu,name:oejia_wx.parent_menu_121
+msgid "返回动作"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_action_act_article
+msgid "返回图文"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_action_act_article_action
+#: model:ir.ui.menu,name:oejia_wx.wx_action_act_article_menuitem
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_action_act_article_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_action_act_article_view_list
+msgid "返回图文动作"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_action_act_text
+msgid "返回文本"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.actions.act_window,name:oejia_wx.wx_action_act_text_action
+#: model:ir.ui.menu,name:oejia_wx.wx_action_act_text_menuitem
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_action_act_text_view_form
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_action_act_text_view_list
+msgid "返回文本动作"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model,name:oejia_wx.model_wx_action_act_media
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__action__wx_action_act_media
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_config__action__wx_action_act_media
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__left_action__wx_action_act_media
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__middle_action__wx_action_act_media
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__right_action__wx_action_act_media
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_left__action__wx_action_act_media
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_middle__action__wx_action_act_media
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_right__action__wx_action_act_media
+msgid "返回素材"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,help:oejia_wx.field_wx_app_config__handler_url
+msgid "这里显示当前用于小程序消息对接的接口URL，无需修改，请将其填入小程序后台相应的地方"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields.selection,name:oejia_wx.selection__wx_corpuser__status__5
+msgid "退出企业"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__user_ids
+msgid "选择用户"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_media__media_id
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__wx_media_id
+msgid "选择素材"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__group_ids
+msgid "选择组"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_Secret
+msgid "通讯录 Secret"
+msgstr ""
+
+#. module: oejia_wx
+#: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corp_config_view_form_1003
+msgid "通讯录相关"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__email
+msgid "邮箱"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_url__url
+msgid "链接地址"
+msgstr ""
+
+#. module: oejia_wx
+#: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__preview_user_id
+msgid "预览用户"
+msgstr ""
