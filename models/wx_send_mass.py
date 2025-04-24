@@ -20,7 +20,6 @@ class WxSendMass(models.Model):
     msg_id = fields.Char('消息ID')
 
 
-    @api.multi
     def mass_send(self):
         from ..rpc import wx_client
         entry = wx_client.WxEntry()
@@ -35,7 +34,6 @@ class WxSendMass(models.Model):
             _logger.info('>>> mass_send ret: %s', res)
             obj.write({'msg_id': res.get('msg_id')})
 
-    @api.multi
     def preview_send(self):
         from ..rpc import wx_client
         entry = wx_client.WxEntry()

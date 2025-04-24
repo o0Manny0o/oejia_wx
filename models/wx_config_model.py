@@ -35,7 +35,6 @@ class wx_config_settings(models.TransientModel):
     #_defaults = {
     #}
 
-    @api.multi
     def execute(self):
         self.ensure_one()
         if self.env.user.has_group('oejia_wx.group_wx_conf'):
@@ -122,7 +121,6 @@ class wxcorp_config_settings(models.TransientModel):
     Corp_AESKey = fields.Char('EncodingAESKey', default='')
 
 
-    @api.multi
     def execute(self):
         self.ensure_one()
         if self.env.user.has_group('oejia_wx.group_wx_conf'):

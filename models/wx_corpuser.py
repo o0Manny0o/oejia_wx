@@ -103,7 +103,6 @@ class wx_corpuser(models.Model):
                 raise ValidationError(u'微信服务请求异常，异常码: %s 异常信息: %s'%(e.errcode, e.errmsg))
         return objs
 
-    @api.multi
     def delete_corpuser(self):
         _logger.info('wx.corpuser delete_corpuser >>> %s'%str(self))
         for obj in self:
@@ -180,7 +179,6 @@ class wx_corpuser(models.Model):
                 _logger.info(u'微信消息发送失败 %s'%e)
                 raise UserError(u'发送失败 %s'%e)
 
-    @api.multi
     def send_text_confirm(self):
         self.ensure_one()
         return self.env['wx.confirm'].window_input_confirm('发送微信消息', 'wx.corpuser|send_text', self.id)
