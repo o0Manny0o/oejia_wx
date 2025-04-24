@@ -48,35 +48,33 @@ class wx_corpuser(models.Model):
             self.avatarimg= '<img src=%s width="100px" height="100px" />'%(self.avatar or utils.DEFAULT_IMG_URL)
 
     @api.model_create_multi
-    def create(self, values):
-        _logger.info('wx.corpuser create >>> %s'%str(values))
-        values['email'] = values.get('email', False)
-        values['mobile'] = values.get('mobile', False)
-        if not (values['mobile'] or values['email']) and not '_from_subscribe' in values:
-            raise ValidationError('手机号、邮箱不能同时为空')
-        from_subscribe = False
-        if '_from_subscribe' in values:
-            from_subscribe = True
-            values.pop('_from_subscribe')
-        obj = super(wx_corpuser, self).create(values)
-        if not from_subscribe:
-            arg = {}
-            for k,v in values.items():
-                if v!=False and k in ['mobile', 'email', 'weixinid', 'gender']: #'alias'
-                    arg[k] = v
-            arg['department'] = 1
-            if 'weixinid' in arg:
-                arg['weixin_id'] = arg.pop('weixinid')
-            from wechatpy.exceptions import WeChatClientException
-            try:
-                entry = self.env['wx.corp.config'].corpenv()
-                entry.txl_client.user.create(values['userid'], values['name'], **arg)
-            except WeChatClientException as e:
-                if e.errcode==60102:
-                    _logger.info('>>> corpuser %s exist', values['userid'])
-                else:
-                    raise ValidationError(u'微信服务请求异常，异常码: %s 异常信息: %s'%(e.errcode, e.errmsg))
-        return obj
+    def create(self, vals):
+        for values in vals:
+            _logger.info('wx.corpuser create >>> %s'%str(values))
+            values['email'] = values.get('email', False)
+            values['mobile'] = values.get('mobile', False)
+            if not (values['mobile'] or values['email']) and not '_from_subscribe' in values:
+                raise ValidationError('手机号、邮箱不能同时为空')
+        users = super(wx_corpuser, self).create(vals)
+        for values in vals:
+            if '_from_subscribe' not in values:
+                arg = {}
+                for k,v in values.items():
+                    if v!=False and k in ['mobile', 'email', 'weixinid', 'gender']: #'alias'
+                        arg[k] = v
+                arg['department'] = 1
+                if 'weixinid' in arg:
+                    arg['weixin_id'] = arg.pop('weixinid')
+                from wechatpy.exceptions import WeChatClientException
+                try:
+                    entry = self.env['wx.corp.config'].corpenv()
+                    entry.txl_client.user.create(values['userid'], values['name'], **arg)
+                except WeChatClientException as e:
+                    if e.errcode==60102:
+                        _logger.info('>>> corpuser %s exist', values['userid'])
+                    else:
+                        raise ValidationError(u'微信服务请求异常，异常码: %s 异常信息: %s'%(e.errcode, e.errmsg))
+        return users
 
     @api.multi
     def write(self, values):
