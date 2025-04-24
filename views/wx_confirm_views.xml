@@ -9,6 +9,7 @@
             <field name="arch" type="xml">
                 <form string="确认">
                     <field name="info" readonly="1" widget="html"/>
+                    <!-- Required for executing -->
                     <field name="method" invisible="1"/>
                     <footer>
                       <button name="execute" string="确定" type="object" class="oe_highlight" invisible="method == False"/>

@@ -32,6 +32,7 @@
 					</header>
 			 	  <sheet>
 			 	    <group>
+                            <!-- Required for identification -->
                             <field name="id" invisible="1"/>
 			 	      		<group>
 			 	            <field name="name"/>
