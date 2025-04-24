@@ -6,28 +6,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-24 "
-"12:30+0000\n"
-"PO-Revision-Date: 2025-04-24 14:33+0200\n"
+"POT-Creation-Date: 2025-04-24 12:30+0000\n"
+"PO-Revision-Date: 2025-04-24 15:06+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != "
-"1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.6\n"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
 msgid "- 动 作"
-msgstr ""
+msgstr "- Action"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form2
 msgid "<span>尚未做公众号对接配置</span>"
-msgstr ""
+msgstr "<span>Official Account connection configuration not yet done</span>"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__aeskey
@@ -37,7 +35,7 @@ msgstr ""
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__app_id
 msgid "AppID"
-msgstr "AppID"
+msgstr ""
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_config__wx_appid
@@ -295,7 +293,7 @@ msgstr ""
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_action_act_url
 msgid "URL跳转"
-msgstr ""
+msgstr "URL Redirect"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__unionid
@@ -326,54 +324,54 @@ msgstr ""
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__img_file
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_articlesreply_article__img_type__file
 msgid "上传图片"
-msgstr ""
+msgstr "Upload Image"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__middle
 msgid "中菜单"
-msgstr ""
+msgstr "Middle Menu"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_menu_item_middle
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_item_middle_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_item_middle_view_list
 msgid "中菜单项"
-msgstr ""
+msgstr "Middle Menu Item"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__title
 msgid "主标题"
-msgstr ""
+msgstr "Main Title"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_Id
 msgid "企业ID"
-msgstr ""
+msgstr "Corp ID"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__mtype__2
 msgid "企业号"
-msgstr ""
+msgstr "Enterprise Account"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__im_livechat_channel__ctype__wx_corp
 msgid "企业微信"
-msgstr ""
+msgstr "WeCom"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_corpuser_uuid
 msgid "企业微信会话记录"
-msgstr ""
+msgstr "WeCom Session Record"
 
 #. module: oejia_wx
 #: model:ir.ui.menu,name:oejia_wx.wx_corp_config_menuitem_322_1536754696
 msgid "企业微信对接配置"
-msgstr ""
+msgstr "WeCom Connection Configuration"
 
 #. module: oejia_wx
 #: model:ir.ui.menu,name:oejia_wx.parent_menu_286
 msgid "企业微信管理"
-msgstr ""
+msgstr "WeCom Management"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__last_uuid
@@ -381,123 +379,123 @@ msgstr ""
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__last_uuid
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user_uuid__uuid
 msgid "会话ID"
-msgstr ""
+msgstr "Session ID"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__last_uuid_time
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__last_uuid_time
 msgid "会话ID时间"
-msgstr ""
+msgstr "Session ID Time"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__author
 msgid "作者"
-msgstr ""
+msgstr "Author"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__used
 msgid "使用中"
-msgstr ""
+msgstr "In Use"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_confirm__info
 msgid "信息"
-msgstr ""
+msgstr "Information"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu__mtype__1
 msgid "公众号"
-msgstr ""
+msgstr "Official Account"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_user_uuid
 msgid "公众号会话记录"
-msgstr ""
+msgstr "Official Account Session Record"
 
 #. module: oejia_wx
 #: model:ir.ui.menu,name:oejia_wx.wx_config_menuitem_322_1536754696
 msgid "公众号对接配置"
-msgstr ""
+msgstr "Official Account Connection Configuration"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_user_action
 #: model:ir.model,name:oejia_wx.model_wx_user
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_view_list
 msgid "公众号用户"
-msgstr ""
+msgstr "Official Account User"
 
 #. module: oejia_wx
 #: model:ir.ui.menu,name:oejia_wx.parent_menu_120
 msgid "公众号用户管理"
-msgstr ""
+msgstr "Official Account User Management"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_user_group_action
 #: model:ir.model,name:oejia_wx.model_wx_user_group
 msgid "公众号用户组"
-msgstr ""
+msgstr "Official Account User Group"
 
 #. module: oejia_wx
 #: model:ir.ui.menu,name:oejia_wx.parent_menu_126_1542014737
 msgid "公众号素材"
-msgstr ""
+msgstr "Official Account Media"
 
 #. module: oejia_wx
 #: model:ir.ui.menu,name:oejia_wx.wx_menu_menuitem
 msgid "公众号菜单"
-msgstr ""
+msgstr "Official Account Menu"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_config
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_config_view_form_1003
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_config_view_list_1002
 msgid "公众号配置"
-msgstr ""
+msgstr "Official Account Configuration"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_config__action
 msgid "关注后的自动回复"
-msgstr ""
+msgstr "Auto-reply after following"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__subscribe_time_show
 msgid "关注时间"
-msgstr ""
+msgstr "Subscribe Time"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__subscribe
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
 msgid "关注状态"
-msgstr ""
+msgstr "Subscription Status"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_res_partner__wxcorp_user_id
 #: model:ir.model.fields,field_description:oejia_wx.field_res_users__wxcorp_user_id
 msgid "关联企业微信"
-msgstr ""
+msgstr "Link WeCom"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_res_partner__wx_user_id
 #: model:ir.model.fields,field_description:oejia_wx.field_res_users__wx_user_id
 msgid "关联微信"
-msgstr ""
+msgstr "Link WeChat"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_text__content
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media__news_item
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__content
 msgid "内容"
-msgstr ""
+msgstr "Content"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__alias
 msgid "别名"
-msgstr ""
+msgstr "Alias"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__description
 msgid "副标题"
-msgstr ""
+msgstr "Subtitle"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__action
@@ -508,116 +506,116 @@ msgstr ""
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__action
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__action
 msgid "动作"
-msgstr ""
+msgstr "Action"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__key
 msgid "匹配内容"
-msgstr ""
+msgstr "Matching Content"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__type__4
 msgid "匹配开头"
-msgstr ""
+msgstr "Match Start"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__type
 msgid "匹配方式"
-msgstr ""
+msgstr "Matching Method"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_autoreply__sequence
 msgid "匹配顺序"
-msgstr ""
+msgstr "Matching Order"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__content_source_url
 msgid "原文链接"
-msgstr ""
+msgstr "Original Link"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form2
 msgid "去配置"
-msgstr ""
+msgstr "Go to Configuration"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__is_to_all
 msgid "发给所有用户"
-msgstr ""
+msgstr "Send to All Users"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form_send
 msgid "发送"
-msgstr ""
+msgstr "Send"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corpuser_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_view_form
 msgid "发送微信消息"
-msgstr ""
+msgstr "Send WeChat Message"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__preview
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_send_mass_view_form_1378
 msgid "发送预览"
-msgstr ""
+msgstr "Send Preview"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__right
 msgid "右菜单"
-msgstr ""
+msgstr "Right Menu"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_menu_item_right
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_item_right_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_item_right_view_list
 msgid "右菜单项"
-msgstr ""
+msgstr "Right Menu Item"
 
 #. module: oejia_wx
 #: model:ir.actions.server,name:oejia_wx.wx_user_action_server_126
 #: model:ir.actions.server,name:oejia_wx.wx_user_group_action_server_121
 msgid "同步"
-msgstr ""
+msgstr "Sync"
 
 #. module: oejia_wx
 #: model:ir.actions.server,name:oejia_wx.wx_user_action_server_sync
 msgid "同步公众号用户"
-msgstr ""
+msgstr "Sync Official Account Users"
 
 #. module: oejia_wx
 #: model:ir.actions.server,name:oejia_wx.wx_user_group_action_server_sync
 msgid "同步公众号用户组"
-msgstr ""
+msgstr "Sync Official Account User Groups"
 
 #. module: oejia_wx
 #: model:ir.actions.server,name:oejia_wx.wx_media_action_server_144
 msgid "同步公众号素材"
-msgstr ""
+msgstr "Sync Official Account Media"
 
 #. module: oejia_wx
 #: model:ir.actions.server,name:oejia_wx.wx_corpuser_action_server_359
 #: model:ir.ui.menu,name:oejia_wx.wx_corpuser_menuitem_270
 msgid "同步成员"
-msgstr ""
+msgstr "Sync Members"
 
 #. module: oejia_wx
 #: model:ir.ui.menu,name:oejia_wx.wx_user_sync_menuitem
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_config_view_form_1003
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corp_config_view_form_1003
 msgid "同步用户"
-msgstr ""
+msgstr "Sync Users"
 
 #. module: oejia_wx
 #: model:ir.ui.menu,name:oejia_wx.wx_media_menuitem_128_1542014738
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_config_view_form_1003
 msgid "同步素材"
-msgstr ""
+msgstr "Sync Media"
 
 #. module: oejia_wx
 #: model:ir.ui.menu,name:oejia_wx.wx_user_group_sync_menuitem
 msgid "同步组"
-msgstr ""
+msgstr "Sync Groups"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_article__name
@@ -627,27 +625,27 @@ msgstr ""
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media__name
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__name
 msgid "名称"
-msgstr ""
+msgstr "Name"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__appkey
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_config__appkey
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__appkey
 msgid "唯一编码"
-msgstr ""
+msgstr "Unique Code"
 
 #. module: oejia_wx
 #: model:ir.model.constraint,message:oejia_wx.constraint_wx_app_config_unique_appkey
 #: model:ir.model.constraint,message:oejia_wx.constraint_wx_config_unique_appkey
 #: model:ir.model.constraint,message:oejia_wx.constraint_wx_corp_config_unique_appkey
 msgid "唯一编码不可重复！"
-msgstr ""
+msgstr "Unique code must be unique!"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__country
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
 msgid "国家"
-msgstr ""
+msgstr "Country"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_articlesreply_article_action
@@ -658,7 +656,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_articlesreply_article_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_articlesreply_article_view_list
 msgid "图文"
-msgstr ""
+msgstr "News"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__action__wx_action_act_article
@@ -670,50 +668,50 @@ msgstr ""
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_middle__action__wx_action_act_article
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_right__action__wx_action_act_article
 msgid "图文响应"
-msgstr ""
+msgstr "News Response"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__img_show
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_media__media_type__image
 msgid "图片"
-msgstr ""
+msgstr "Image"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__img
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_articlesreply_article__img_type__url
 msgid "图片地址"
-msgstr ""
+msgstr "Image URL"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__img_type
 msgid "图片类型"
-msgstr ""
+msgstr "Image Type"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__city
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
 msgid "城市"
-msgstr ""
+msgstr "City"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
 msgid "填写中间菜单名"
-msgstr ""
+msgstr "Enter middle menu name"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
 msgid "填写右菜单名"
-msgstr ""
+msgstr "Enter right menu name"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
 msgid "填写备注"
-msgstr ""
+msgstr "Enter remarks"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
 msgid "填写左菜单名"
-msgstr ""
+msgstr "Enter left menu name"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__avatar
@@ -721,12 +719,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__headimg
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__headimgurl
 msgid "头像"
-msgstr ""
+msgstr "Avatar"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
 msgid "女性"
-msgstr ""
+msgstr "Female"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_base__name
@@ -734,12 +732,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__name
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__name
 msgid "子菜单"
-msgstr ""
+msgstr "Submenu"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__type__1
 msgid "完全匹配"
-msgstr ""
+msgstr "Exact Match"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_corp_config_action_404
@@ -747,34 +745,34 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corp_config_view_form_1003
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corp_config_view_list_1002
 msgid "对接企业号配置"
-msgstr ""
+msgstr "Enterprise Account Connection Configuration"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_config_action_404
 msgid "对接公众号设置"
-msgstr ""
+msgstr "Official Account Connection Settings"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_app_config_action_404
 msgid "对接小程序设置"
-msgstr ""
+msgstr "Mini Program Connection Settings"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__appid
 msgid "小程序AppID"
-msgstr ""
+msgstr "Mini Program AppID"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_app_config
 #: model:ir.ui.menu,name:oejia_wx.wx_app_config_menuitem_322_1536754696
 msgid "小程序对接设置"
-msgstr ""
+msgstr "Mini Program Connection Settings"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_app_config_view_form_1003
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_app_config_view_list_1002
 msgid "小程序设置"
-msgstr ""
+msgstr "Mini Program Settings"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_action_act_wxa
@@ -785,103 +783,103 @@ msgstr ""
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_middle__action__wx_action_act_wxa
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_right__action__wx_action_act_wxa
 msgid "小程序跳转"
-msgstr ""
+msgstr "Mini Program Redirect"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__pagepath
 msgid "小程序页面路径"
-msgstr ""
+msgstr "Mini Program Page Path"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__left
 msgid "左菜单"
-msgstr ""
+msgstr "Left Menu"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_menu_item_left
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_item_left_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_item_left_view_list
 msgid "左菜单项"
-msgstr ""
+msgstr "Left Menu Item"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_corpuser__status__1
 msgid "已关注"
-msgstr ""
+msgstr "Followed"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
 msgid "已关注状态"
-msgstr ""
+msgstr "Followed Status"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_corpuser__status__2
 msgid "已禁用"
-msgstr ""
+msgstr "Disabled"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_Agent
 msgid "应用 AgentID"
-msgstr ""
+msgstr "Application AgentID"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_Agent_Secret
 msgid "应用 Secret"
-msgstr ""
+msgstr "Application Secret"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_app_config_view_form_1003
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_config_view_form_1003
 msgid "开发者配置"
-msgstr ""
+msgstr "Developer Configuration"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_config__wx_AccessToken
 msgid "当前AccessToken"
-msgstr ""
+msgstr "Current AccessToken"
 
 #. module: oejia_wx
 #: model:ir.module.category,name:oejia_wx.module_cate54
 #: model:ir.ui.menu,name:oejia_wx.parent_menu_119
 msgid "微信"
-msgstr ""
+msgstr "WeChat"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__im_livechat_channel__ctype__wx_gzh
 msgid "微信公众号"
-msgstr ""
+msgstr "WeChat Official Account"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__weixinid
 msgid "微信号"
-msgstr ""
+msgstr "WeChat ID"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__im_livechat_channel__ctype__wx_app
 msgid "微信小程序"
-msgstr ""
+msgstr "WeChat Mini Program"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_view_form
 msgid "微信用户"
-msgstr ""
+msgstr "WeChat User"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser_uuid__userid
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user_uuid__openid
 msgid "微信用户ID"
-msgstr ""
+msgstr "WeChat User ID"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
 msgid "微信用户查找"
-msgstr ""
+msgstr "WeChat User Search"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_group_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_group_view_list
 msgid "微信用户组"
-msgstr ""
+msgstr "WeChat User Group"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_media_action_143
@@ -890,7 +888,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_media_view_form_395
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_media_view_list_394
 msgid "微信素材"
-msgstr ""
+msgstr "WeChat Media"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_menu_action
@@ -898,27 +896,27 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_list
 msgid "微信菜单"
-msgstr ""
+msgstr "WeChat Menu"
 
 #. module: oejia_wx
 #: model:ir.ui.menu,name:oejia_wx.parent_menu_123
 msgid "微信设置"
-msgstr ""
+msgstr "WeChat Settings"
 
 #. module: oejia_wx
 #: model:res.groups,name:oejia_wx.group_wx_op
 msgid "微信运营"
-msgstr ""
+msgstr "WeChat Operations"
 
 #. module: oejia_wx
 #: model:res.groups,name:oejia_wx.group_wx_conf
 msgid "微信配置"
-msgstr ""
+msgstr "WeChat Configuration"
 
 #. module: oejia_wx
 #: model:res.groups,name:oejia_wx.group_wx_conf_read
 msgid "微信配置(只读)"
-msgstr ""
+msgstr "WeChat Configuration (Read-only)"
 
 #. module: oejia_wx
 #: model:ir.model.fields,help:oejia_wx.field_wx_config__wx_token
@@ -933,7 +931,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__sex
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
 msgid "性别"
-msgstr ""
+msgstr "Gender"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_corpuser_action
@@ -942,7 +940,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corpuser_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corpuser_view_list
 msgid "成员"
-msgstr ""
+msgstr "Member"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_base__menu_id
@@ -950,61 +948,61 @@ msgstr ""
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_middle__menu_id
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu_item_right__menu_id
 msgid "所属微信菜单"
-msgstr ""
+msgstr "Belongs to WeChat Menu"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__group_id
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
 msgid "所属组"
-msgstr ""
+msgstr "Belongs to Group"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__mobile
 msgid "手机号"
-msgstr ""
+msgstr "Mobile Number"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__need_open_comment
 msgid "打开评论"
-msgstr ""
+msgstr "Open Comments"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_custom__excute_content
 msgid "执行内容"
-msgstr ""
+msgstr "Execution Content"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_custom__excute_type
 msgid "执行方式"
-msgstr ""
+msgstr "Execution Method"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__extattr
 msgid "扩展属性"
-msgstr ""
+msgstr "Extended Attributes"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_media__name
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__name
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__digest
 msgid "描述"
-msgstr ""
+msgstr "Description"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_menu_view_form
 msgid "描述/备注"
-msgstr ""
+msgstr "Description/Remarks"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form_send
 msgid "放弃"
-msgstr ""
+msgstr "Discard"
 
 #. module: oejia_wx
 #: model:ir.model.fields,help:oejia_wx.field_wx_autoreply__sequence
 msgid "数字越小越先匹配"
-msgstr ""
+msgstr "Smaller numbers match first"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__action__wx_action_act_text
@@ -1016,58 +1014,58 @@ msgstr ""
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_middle__action__wx_action_act_text
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_right__action__wx_action_act_text
 msgid "文本响应"
-msgstr ""
+msgstr "Text Response"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__url
 msgid "文章url"
-msgstr ""
+msgstr "Article URL"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_confirm__method
 msgid "方法"
-msgstr ""
+msgstr "Method"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__name
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__nickname
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
 msgid "昵称"
-msgstr ""
+msgstr "Nickname"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__show_cover_pic
 msgid "显示封面"
-msgstr ""
+msgstr "Show Cover"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__im_livechat_channel__ctype__normal
 msgid "普通"
-msgstr ""
+msgstr "Normal"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media__update_time_show
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__update_time_show
 msgid "更新时间"
-msgstr ""
+msgstr "Update Time"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_app_config_view_form_1003
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_config_view_form_1003
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corp_config_view_form_1003
 msgid "服务配置"
-msgstr ""
+msgstr "Service Configuration"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_corpuser__status__4
 msgid "未关注"
-msgstr ""
+msgstr "Unfollowed"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_corpuser__gender__0
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_user__sex__0
 msgid "未知"
-msgstr ""
+msgstr "Unknown"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__corp_config_id
@@ -1076,151 +1074,149 @@ msgstr ""
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__config_id
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__config_id
 msgid "来源"
-msgstr ""
+msgstr "Source"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__title
 msgid "标题"
-msgstr ""
+msgstr "Title"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_confirm__model
 msgid "模型"
-msgstr ""
+msgstr "Model"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__type__2
 msgid "模糊匹配"
-msgstr ""
+msgstr "Fuzzy Match"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_autoreply__type__3
 msgid "正则匹配"
-msgstr ""
+msgstr "Regex Match"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corpuser_view_form
-msgid ""
-"此操作会删除企业微信通讯录中的该成员，确"
-"定?"
-msgstr ""
+msgid "此操作会删除企业微信通讯录中的该成员，确定?"
+msgstr "This operation will delete the member from the WeCom address book. Confirm?"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__msg_id
 msgid "消息ID"
-msgstr ""
+msgstr "Message ID"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_app_config__handler_url
 msgid "消息对接URL"
-msgstr ""
+msgstr "Message Handling URL"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__status
 msgid "状态"
-msgstr ""
+msgstr "Status"
 
 #. module: oejia_wx
 #: model:ir.actions.server,name:oejia_wx.wx_menu_action_server_123
 msgid "生效"
-msgstr ""
+msgstr "Apply"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__user_ids
 #: model:ir.ui.menu,name:oejia_wx.wx_user_menuitem
 msgid "用户"
-msgstr ""
+msgstr "Users"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__count
 msgid "用户数"
-msgstr ""
+msgstr "User Count"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__openid
 msgid "用户标志"
-msgstr ""
+msgstr "User OpenID"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_user_filter_624
 msgid "男性"
-msgstr ""
+msgstr "Male"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user__province
 msgid "省份"
-msgstr ""
+msgstr "Province"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form2
 msgid "知道了"
-msgstr ""
+msgstr "Got it"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form_send
 msgid "确定"
-msgstr ""
+msgstr "Confirm"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_confirm
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_confirm_view_form2
 msgid "确认"
-msgstr ""
+msgstr "Confirmation"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corpuser_view_form
 msgid "禁用企微成员"
-msgstr ""
+msgstr "Disable WeCom Member"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_im_livechat_channel__ctype
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media__media_type
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_menu__mtype
 msgid "类型"
-msgstr ""
+msgstr "Type"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__only_fans_can_comment
 msgid "粉丝才可评论"
-msgstr ""
+msgstr "Only Followers Can Comment"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media__media_id
 msgid "素材ID"
-msgstr ""
+msgstr "Media ID"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_media_article
 msgid "素材文章"
-msgstr ""
+msgstr "Media Article"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__group_name
 msgid "组名"
-msgstr ""
+msgstr "Group Name"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_user_group__group_id
 msgid "组编号"
-msgstr ""
+msgstr "Group ID"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__show_thumb_url
 msgid "缩略图"
-msgstr ""
+msgstr "Thumbnail"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__thumb_url
 msgid "缩略图url"
-msgstr ""
+msgstr "Thumbnail URL"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_media_article__thumb_media_id
 msgid "缩略图素材ID"
-msgstr ""
+msgstr "Thumbnail Media ID"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_send_mass_action_458
@@ -1229,17 +1225,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_send_mass_view_form_1378
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_send_mass_view_list_1377
 msgid "群发"
-msgstr ""
+msgstr "Mass Send"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_wxa__url
 msgid "老版微信备用URL"
-msgstr ""
+msgstr "Fallback URL for older WeChat versions"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__position
 msgid "职位"
-msgstr ""
+msgstr "Position"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_autoreply_action
@@ -1249,7 +1245,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_autoreply_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_autoreply_view_list
 msgid "自动回复"
-msgstr ""
+msgstr "Auto-reply"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_action_act_custom_action
@@ -1266,37 +1262,37 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_action_act_custom_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_action_act_custom_view_list
 msgid "自定义动作"
-msgstr ""
+msgstr "Custom Action"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corp_config_view_form_1003
 msgid "自建应用信息"
-msgstr ""
+msgstr "Self-built Application Information"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_Agent_Name
 msgid "自建应用名称"
-msgstr ""
+msgstr "Self-built Application Name"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_menu_item_base
 msgid "菜单项"
-msgstr ""
+msgstr "Menu Item"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__send_ignore_reprint
 msgid "被判定为转载时，是否继续群发"
-msgstr ""
+msgstr "Continue mass sending if judged as reprint"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_media__media_type__video
 msgid "视频"
-msgstr ""
+msgstr "Video"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_media__media_type__voice
 msgid "语音"
-msgstr ""
+msgstr "Voice"
 
 #. module: oejia_wx
 #: model:ir.model.fields,help:oejia_wx.field_wx_corp_config__Corp_Url
@@ -1317,17 +1313,17 @@ msgstr ""
 #: model:im_livechat.channel,default_message:oejia_wx.channel_corp
 #: model:im_livechat.channel,default_message:oejia_wx.channel_wx
 msgid "请稍后，正在分配客服为您解答"
-msgstr ""
+msgstr "Please wait, assigning customer service to assist you"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__userid
 msgid "账号"
-msgstr ""
+msgstr "Account"
 
 #. module: oejia_wx
 #: model:ir.model.constraint,message:oejia_wx.constraint_wx_corpuser_userid_key
 msgid "账号已存在 !"
-msgstr ""
+msgstr "Account already exists!"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_articlesreply_article__url
@@ -1338,17 +1334,17 @@ msgstr ""
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_middle__action__wx_action_act_url
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_right__action__wx_action_act_url
 msgid "跳转链接"
-msgstr ""
+msgstr "Redirect Link"
 
 #. module: oejia_wx
 #: model:ir.ui.menu,name:oejia_wx.parent_menu_121
 msgid "返回动作"
-msgstr ""
+msgstr "Return Action"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_action_act_article
 msgid "返回图文"
-msgstr ""
+msgstr "Return News"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_action_act_article_action
@@ -1356,12 +1352,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_action_act_article_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_action_act_article_view_list
 msgid "返回图文动作"
-msgstr ""
+msgstr "Return News Action"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_action_act_text
 msgid "返回文本"
-msgstr ""
+msgstr "Return Text"
 
 #. module: oejia_wx
 #: model:ir.actions.act_window,name:oejia_wx.wx_action_act_text_action
@@ -1369,7 +1365,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_action_act_text_view_form
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_action_act_text_view_list
 msgid "返回文本动作"
-msgstr ""
+msgstr "Return Text Action"
 
 #. module: oejia_wx
 #: model:ir.model,name:oejia_wx.model_wx_action_act_media
@@ -1382,57 +1378,60 @@ msgstr ""
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_middle__action__wx_action_act_media
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_menu_item_right__action__wx_action_act_media
 msgid "返回素材"
-msgstr ""
+msgstr "Return Media"
 
 #. module: oejia_wx
 #: model:ir.model.fields,help:oejia_wx.field_wx_app_config__handler_url
-msgid ""
-"这里显示当前用于小程序消息对接的接口URL，"
-"无需修改，请将其填入小程序后台相应的地方"
-msgstr ""
+msgid "这里显示当前用于小程序消息对接的接口URL，无需修改，请将其填入小程序后台相应的地方"
+msgstr "This shows the current interface URL for Mini Program message handling. No modification needed, please fill it into the corresponding place in the Mini Program backend"
 
 #. module: oejia_wx
 #: model:ir.model.fields.selection,name:oejia_wx.selection__wx_corpuser__status__5
 msgid "退出企业"
-msgstr ""
+msgstr "Left Enterprise"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__user_ids
 msgid "选择用户"
-msgstr ""
+msgstr "Select Users"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_media__media_id
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__wx_media_id
 msgid "选择素材"
-msgstr ""
+msgstr "Select Media"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__group_ids
 msgid "选择组"
-msgstr ""
+msgstr "Select Group"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corp_config__Corp_Secret
 msgid "通讯录 Secret"
-msgstr ""
+msgstr "Address Book Secret"
 
 #. module: oejia_wx
 #: model_terms:ir.ui.view,arch_db:oejia_wx.wx_corp_config_view_form_1003
 msgid "通讯录相关"
-msgstr ""
+msgstr "Address Book Related"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_corpuser__email
 msgid "邮箱"
-msgstr ""
+msgstr "Email"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_action_act_url__url
 msgid "链接地址"
-msgstr ""
+msgstr "Link Address"
 
 #. module: oejia_wx
 #: model:ir.model.fields,field_description:oejia_wx.field_wx_send_mass__preview_user_id
 msgid "预览用户"
-msgstr ""
+msgstr "Preview User"
+
+#. module: oejia_wx
+#: model:ir.ui.menu,name:oejia_wx.wx_user_group_menuitem
+msgid "预览用户"
+msgstr "Preview User"
