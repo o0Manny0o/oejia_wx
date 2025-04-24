@@ -53,9 +53,9 @@ class WxAppConfig(models.Model):
     def get_cur(self):
         return self.env.ref('oejia_wx.wx_app_config_data_1')
 
-    @api.multi
     def _compute_display_name(self):
-        return [(e.id, u'小程序对接设置') for e in self]
+        for e in self:
+            e.display_name = u'小程序对接设置'
 
     @api.model
     def appenv(self, key=None):

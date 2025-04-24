@@ -68,9 +68,9 @@ class WxConfig(models.Model):
     def get_cur(self):
         return self.env.ref('oejia_wx.wx_config_data_1')
 
-    @api.multi
     def _compute_display_name(self):
-        return [(e.id, u'公众号配置') for e in self]
+        for e in self:
+            e.display_name = u'公众号配置'
 
     @api.model
     def wxenv(self, key=None):
